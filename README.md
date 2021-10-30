@@ -1,2 +1,2 @@
 # firstchatbot
-kasa kay mandali
+kasa kay mandali baray ka?
