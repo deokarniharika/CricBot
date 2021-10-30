@@ -7,6 +7,7 @@ from keep_alive import keep_alive
 client = discord.Client()
 
 def score_gen():
+  url='https://www.cricbuzz.com/'
   page = requests.get(url)
   soup = BeautifulSoup(page.text,'html.parser')
   team_1 = soup.find_all(class_ = "cb-ovr-flo cb-hmscg-tm-nm")[0].get_text()
