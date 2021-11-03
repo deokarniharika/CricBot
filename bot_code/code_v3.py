@@ -15,7 +15,7 @@ def live_score():
   team_1_score = soup.find_all(class_ = "cb-ovr-flo")[8].get_text()
   team_2_score = soup.find_all(class_ = "cb-ovr-flo")[10].get_text()
   # print team names and scores
-  s=team_1+" : "+team_1_score+"\n"+team_2+" : "+team_2_score+"\n"+"This command might not work properly, when there are no ongoing matches."
+  s=team_1+" : "+team_1_score+"\n"+team_2+" : "+team_2_score+"\n"+"*This command might not work properly, when there are no ongoing matches.*"
   return(s)
 
 
