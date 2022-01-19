@@ -1,4 +1,4 @@
-**CricBot** gives the cricket score for matches around the world. <br />
+**CricBot** gives the cricket score for matches of India around the world. <br />
 -> *!recent* command gives updates on the scores of the recent cricket match. <br />
 -> *!live* command gives the live score. <br />
 <br />
